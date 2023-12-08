@@ -1,0 +1,20 @@
+{
+    "name": "hien/salemall",
+    "description": "Project test of salemall",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Config\\": "config/"
+        },
+        "files" : [
+            "src/Helpers/index.php",
+            "routes/index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "hindev9th"
+        }
+    ],
+    "require": {}
+}
